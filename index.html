@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Understanding PTSD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('images/backgrounds/ptsd-bg.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #f2f2f2;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.75);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 30px 20px;
+      border-bottom: 3px solid #ffd700;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+      display: block;
+      margin: 0 auto 15px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+      color: #ffd700;
+    }
+    header .site-name {
+      font-size: 1.2em;
+      color: #aaa;
+      margin-top: 5px;
+      display: block;
+    }
+    nav {
+      text-align: center;
+      padding: 15px 0;
+      background: rgba(0,0,0,0.7);
+      border-bottom: 2px solid #444;
+    }
+    nav a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.3em;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 100px auto;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 80px;
+      border-radius: 25px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+    }
+    .section-img {
+      width: 100%;
+      max-height: 600px;
+      height: auto;
+      object-fit: contain;
+      border-radius: 20px;
+      margin-bottom: 50px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2 {
+      color: #ffd700;
+      border-bottom: 2px solid #ffd700;
+      padding-bottom: 8px;
+      display: inline-block;
+      font-size: 2.8em;
+      margin-bottom: 30px;
+    }
+    p, li {
+      font-size: 1.4em;
+      line-height: 1.9em;
+    }
+    ul {
+      margin-left: 35px;
+      list-style: square;
+    }
+    button {
+      background: #ffd700;
+      color: #000;
+      border: none;
+      padding: 20px 50px;
+      font-size: 1.5em;
+      border-radius: 15px;
+      margin-top: 80px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #e6c200;
+    }
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 1em;
+      margin-top: 120px;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <header>
+    <img src="images/logo.png" alt="Site Logo" />
+    <h1>Understanding PTSD</h1>
+    <span class="site-name">Raising Awareness and Offering Hope</span>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#symptoms">Symptoms</a>
+    <a href="#causes">Causes</a>
+    <a href="#treatment">Treatment</a>
+  </nav>
+
+  <div class="container" id="about">
+    <img src="images/about.png" alt="About PTSD" class="section-img" />
+    <h2>About PTSD</h2>
+    <p>Post-Traumatic Stress Disorder (PTSD) is a mental health condition triggered by experiencing or witnessing a terrifying event. It can affect anyone—soldiers, accident survivors, victims of violence, or people who have faced natural disasters. PTSD can disrupt daily life, relationships, and mental well-being if left untreated.</p>
+    <p>It’s important to understand that PTSD is not a sign of weakness. It is a serious mental health condition that requires understanding, support, and proper treatment to help people recover and heal.</p>
+  </div>
+
+  <div class="container" id="symptoms">
+    <img src="images/symptoms.png" alt="PTSD Symptoms" class="section-img" />
+    <h2>Common Symptoms</h2>
+    <p>Symptoms of PTSD may appear soon after a traumatic event or even years later. They often fall into categories like intrusive memories, avoidance behaviors, negative mood changes, and heightened reactivity. Here are some common signs to watch for:</p>
+    <ul>
+      <li>Intrusive memories and flashbacks</li>
+      <li>Nightmares related to the trauma</li>
+      <li>Severe emotional distress to reminders</li>
+      <li>Avoiding places or people that remind of the trauma</li>
+      <li>Negative thoughts about self or others</li>
+      <li>Feeling detached from family and friends</li>
+      <li>Being easily startled or frightened</li>
+    </ul>
+    <p>If these symptoms last for more than a month and interfere with daily life, professional help should be sought as soon as possible.</p>
+  </div>
+
+  <div class="container" id="causes">
+    <img src="images/causes.png" alt="PTSD Causes" class="section-img" />
+    <h2>Causes</h2>
+    <p>PTSD can develop after traumatic events such as war, natural disasters, serious accidents, or personal assaults. Genetic factors, previous trauma, and lack of support after the event can also increase the risk of developing PTSD.</p>
+    <p>Everyone responds differently to trauma, so what causes PTSD in one person may not affect another the same way. A strong support network, early counseling, and stress management can lower the risk of developing PTSD after trauma.</p>
+  </div>
+
+  <div class="container" id="treatment">
+    <img src="images/treatment.png" alt="PTSD Treatment" class="section-img" />
+    <h2>Treatment</h2>
+    <p>With the right support and treatment, people with PTSD can recover and lead fulfilling lives. Common treatments include:</p>
+    <ul>
+      <li>Therapy (like Cognitive Behavioral Therapy and EMDR)</li>
+      <li>Medications (such as antidepressants)</li>
+      <li>Support groups and community resources</li>
+      <li>Self-care strategies like exercise, mindfulness, and journaling</li>
+    </ul>
+    <p>Early help is important, and reaching out to professionals or trusted friends and family can make a big difference. Recovery may take time, but healing is possible.</p>
+  </div>
+
+  <div style="text-align:center">
+    <button onclick="alert('You are not alone. Reach out to someone you trust.')">Need Help?</button>
+  </div>
+
+  <footer>
+    &copy; 2025 PTSD Awareness Project
+  </footer>
+</body>
+</html>
